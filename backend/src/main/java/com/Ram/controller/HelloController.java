@@ -12,4 +12,14 @@ public class HelloController {
     public String hello() {
         return "Hello Ramprasad! Welcome to Full Stack Development.";
     }
+
+    @GetMapping("/name")
+    public String name(){
+        return "Ramprasad";
+    }
+    @GetMapping("/course")
+    public String course(){
+        return "cse";
+    }
+
 }
